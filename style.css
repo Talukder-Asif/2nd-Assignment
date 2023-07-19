@@ -158,6 +158,44 @@ nav{
     font-weight: 700;
     font-size: 28px;
 }
+.ogfv{
+    text-align: center;
+    margin: 70px 0;
+}
+.video-box{
+    width: 25%;
+    position: relative;
+}
+.video-box img{
+    width: 342px;
+    height: 400px;
+    margin: 20px 0;
+}
+.video-btn{
+    background-color: rgba(0, 0, 0, 0.716);
+    width: 336px;
+    height: 393px;
+    text-align: center;
+    border-radius: 15px;
+    position: absolute;
+    top: 20px;
+    border: 4px solid #ff42a5;
+    visibility: hidden;
+    opacity: 0;
+}
+.video-box img:hover .video-btn{
+    visibility: visible;
+    opacity: 1;
+}
+.video-btn img{
+    width: 50px;
+    height: 50px;
+    margin-top: 175px;
+}
+.video-btn p{
+    font-size: 15px;
+    color: red;
+}
 
 
 
