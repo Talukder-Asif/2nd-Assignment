@@ -287,7 +287,110 @@ footer>p{
 
 
 
-
+@media (min-width:946px) and (max-width:1024px) {
+    .faka{
+        margin: 0 20px;
+    }
+    .play-instant-img>img {
+        margin-top: 20px;
+        width: 400px;
+        margin-left: 30px;
+    }
+    .goat-img img{
+        width: 500px;
+    }
+    .banner-img{
+        width: 500px;
+    }
+    .gamer-text {
+        padding-right: 20px;
+    }
+    .video {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .play-instant-text {
+        text-align: right;
+        padding: 0 100px 0 60px;
+    }
+    .upore img{
+        width: 200px;
+    }
+    .upore {
+        position: absolute;
+        left: -75px;
+        bottom: -50px;
+    }
+    .play-instant-img img {
+        margin-top: 20px;
+        width: 250px;
+        margin-left: 30px;
+    }
+    .play-instant-text {
+        margin-top: 80px;
+        text-align: center;
+        padding: 0 10px 0 10px;
+    }
+    .upore img {
+        width: 120px;
+    }
+    .upore {
+        left: -50px;
+        bottom: -30px;
+    }
+}
+@media (min-width:577px) and (max-width:946px) {
+    .faka{
+        margin: 0 20px;
+    }
+    .goat-img img{
+        width: 100%;
+    }
+    .banner-img{
+        width: 100%;
+    }
+    .gamer-text {
+        padding-right: 20px;
+    }
+    .video {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .goat-text h1 {
+        font-size: 50px;
+    }
+    .goat-text h2 {
+        font-size: 35px;
+    }
+    .play-instant-img img {
+        margin-top: 20px;
+        width: 250px;
+        margin-left: 30px;
+    }
+    .play-instant-text {
+        margin-top: 80px;
+        text-align: center;
+        padding: 0 10px 0 10px;
+    }
+    .upore img {
+        width: 120px;
+    }
+    .upore {
+        left: -50px;
+        bottom: -30px;
+    }
+    .img-btn {
+        gap: 10px;
+        padding: 5px 10px;
+        background: #ffffff;
+        border-radius: 50px;
+        border: 2px solid #ffffff;
+        transition: 0.5s;
+        font-size: 15px;
+    }
+    .img-btn img {
+        gap: 5px;
+        width: 40px;
+    }
+}
 /* Mobile-Responsive */
 @media (max-width:576px) {
     .faka {
@@ -388,5 +491,8 @@ footer>p{
     }
     footer ul {
         gap: 20px;
+    }
+    footer ul li {
+        font-size: 16px;
     }
 }
